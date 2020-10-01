@@ -54,6 +54,8 @@ section h3.section-subheading {
   }
 }
 
+
+
 .btn {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
@@ -258,6 +260,16 @@ section .about .info-wrap .info {
   margin-bottom: 25px;
   text-transform: none;
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+@media screen and (max-width: 600px){
+  section .about{
+    flex-direction: column !important;
+  }
+
+  section .about .info-wrap{
+    margin-top: 30px;
+  }
 }
 
 /****************** TECNOLOGIAS **********************/
