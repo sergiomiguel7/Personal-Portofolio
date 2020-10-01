@@ -320,6 +320,7 @@ section .container .tecno-wrap img {
 
 table {
   margin-top: 30px;
+  width: 110% !important;
 }
 
 /****************** CONTACTS **********************/
