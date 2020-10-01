@@ -1,2 +1,2 @@
-# Personal-Portofolio
+# Portofolio
 My personal portofolio using html, css and javascript.
