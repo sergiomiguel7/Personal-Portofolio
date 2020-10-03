@@ -16,7 +16,19 @@ window.onload = () => {
         });
 
         const projects = await response.json();
-        console.log(projects);
+
+
+        //sort by updated date
+        projects.sort((d1, d2) => {
+            if(d1.updated_at > d2.updated_at)
+                return -1;
+            else if(d1.updated_at < d2.updated_at)
+                return 1;
+            else 
+                return 0;    
+        });
+
+        //console.log("sorted",projects);
 
         let strHtml = `
             <thead>
