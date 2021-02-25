@@ -88,7 +88,7 @@ contactForm.addEventListener("submit", async function (e) {
             }
             $('#contactForm').get(0).reset();
         }, function (error) {
-            swal("Falha no envio", error, "error");
+            swal("Envio de mensagem", "Se o erro persistir envia email diretamente para sergiompc12@gmail.com 😀", 'error');
         });
 
 
