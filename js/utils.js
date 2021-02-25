@@ -84,7 +84,7 @@ contactForm.addEventListener("submit", async function (e) {
                 swal("Envio de mensagem", "A tua mensagem foi enviada, em breve entrarei em contacto :)", 'success');
             }
             else {
-                swal("Envio de mensagem", "Erro ao enviar e-mail. Verifica os campos preenchidos.", 'error');
+                swal("Envio de mensagem", "Se o erro persistir envia email diretamente para sergiompc12@gmail.com 😀", 'error');
             }
             $('#contactForm').get(0).reset();
         }, function (error) {
