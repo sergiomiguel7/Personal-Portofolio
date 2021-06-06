@@ -254,9 +254,9 @@ section .about .info-wrap {
 section .about .info-wrap .info {
   font-size: 16px;
   font-weight: 400;
-  font-style: italic;
-  line-height: 1.6;
+  line-height: 1.8;
   margin-bottom: 25px;
+  text-align: justify;
   text-transform: none;
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
