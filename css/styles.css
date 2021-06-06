@@ -120,7 +120,6 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand {
-  color: #3677b1;
 }
 
 #mainNav .navbar-brand.active,
@@ -223,7 +222,7 @@ header.masthead .intro-text .intro-heading {
     font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
   header.masthead .intro-text .intro-heading {
-    font-size: 75px;
+    font-size: 55px;
     font-weight: 700;
     line-height: 75px;
     margin-bottom: 50px;
@@ -388,9 +387,11 @@ section#contact :-ms-input-placeholder {
 footer {
   padding: 25px 0;
   text-align: center;
+  background-color: #212529;
 }
 
 footer span.copyright {
+  color: white;
   font-size: 90%;
   line-height: 40px;
   text-transform: none;

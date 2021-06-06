@@ -20,12 +20,12 @@ window.onload = () => {
 
         //sort by updated date
         projects.sort((d1, d2) => {
-            if(d1.updated_at > d2.updated_at)
+            if (d1.updated_at > d2.updated_at)
                 return -1;
-            else if(d1.updated_at < d2.updated_at)
+            else if (d1.updated_at < d2.updated_at)
                 return 1;
-            else 
-                return 0;    
+            else
+                return 0;
         });
 
         //console.log("sorted",projects);
@@ -39,6 +39,16 @@ window.onload = () => {
                 </tr> 
             </thead><tbody>`;
 
+        //entreprise projects
+
+        strHtml += `
+        <tr>
+            <td><a href="https://omeumenu.com/" target="_blank" style="color: #000">Omeumenu</a></td>
+            <td>Desenvolvimento do backoffice para restaurantes (Angular) e app móvel para clientes (Ionic)</td>
+            <td>Typescript</td>
+        </tr>
+    `;
+
         for (const project of projects) {
             strHtml += `
                 <tr>
@@ -48,6 +58,7 @@ window.onload = () => {
                 </tr>
             `
         }
+
 
         tableProjects.innerHTML = strHtml
 
