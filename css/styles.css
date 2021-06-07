@@ -266,8 +266,13 @@ section .about .info-wrap .info {
     flex-direction: column !important;
   }
 
+  section .about img.user-photo{
+    padding: 25px;
+  }
+
   section .about .info-wrap{
     margin-top: 30px;
+    margin-left: 0;
   }
 }
 
