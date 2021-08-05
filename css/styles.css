@@ -54,7 +54,13 @@ section h3.section-subheading {
   }
 }
 
+.col-md-6 {
+  padding-left: 0;
+}
 
+.row table {
+  width: 100% !important;
+}
 
 .btn {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -261,16 +267,16 @@ section .about .info-wrap .info {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-@media screen and (max-width: 600px){
-  section .about{
+@media screen and (max-width: 600px) {
+  section .about {
     flex-direction: column !important;
   }
 
-  section .about img.user-photo{
+  section .about img.user-photo {
     padding: 25px;
   }
 
-  section .about .info-wrap{
+  section .about .info-wrap {
     margin-top: 30px;
     margin-left: 0;
   }
@@ -405,6 +411,8 @@ footer span.copyright {
 
 ul.social-buttons {
   margin-bottom: 0;
+  display: flex;
+  justify-content: flex-end;
 }
 
 ul.social-buttons li a {
