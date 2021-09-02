@@ -43,6 +43,11 @@ window.onload = () => {
 
         strHtml += `
         <tr>
+            <td><a href="https://realisticstate.com/" target="_blank" style="color: #000">RealisticState</a></td>
+            <td>Desenvolvimento do backoffice para imobiliárias, bem como aplicação do lado do cliente.</td>
+            <td>Typescript</td>
+        </tr>
+        <tr>
             <td><a href="https://omeumenu.com/" target="_blank" style="color: #000">Omeumenu</a></td>
             <td>Desenvolvimento do backoffice para restaurantes (Angular) e app móvel para clientes (Ionic)</td>
             <td>Typescript</td>
